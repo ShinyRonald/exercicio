@@ -1,2 +1,2 @@
-# exercicio
-Exercícios 
+# Exercicio
+Repositório focado em exercicios da faculdade
