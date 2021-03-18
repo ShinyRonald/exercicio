@@ -1,2 +1,2 @@
-# exercicio
-Exercícios 
+# Exercicio
+Repositório para exercicios em java
