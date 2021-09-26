@@ -8,7 +8,7 @@ public class Escrever {
 	
 	public static void criarArquivo() {
 		
-	File arquivo = new File("C:\\Users\\Ronald\\Desktop\\desafio.txt");
+	File arquivo = new File("/home/ronald/Documentos");
 	
 	try {
 		

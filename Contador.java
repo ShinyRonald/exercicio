@@ -17,8 +17,8 @@ public class Contador {
 		int win = 0;
 		int lose = 0;
 		
-		//Repetição pra atribuição dos resultados
-		//Quando for 3 é encerrado
+		//Repetiï¿½ï¿½o pra atribuiï¿½ï¿½o dos resultados
+		//Quando for 3 ï¿½ encerrado
 		do {
 			System.out.println("Win(1) Lose(2) End(3): ");
 			resultado = sc.nextByte();
@@ -39,8 +39,8 @@ public class Contador {
 	} while(resultado != 3 );
 		
 		//Escrever o txt
-		Path caminho = Paths.get("C:\\Users\\Ronald\\Desktop\\Resultados.txt");
-		String texto = "GP TF: "+win+"/"+lose;
+		Path caminho = Paths.get("/home/ronald/Documentos/a.txt");
+		String texto = "GP TF: "+win+"/"+lose +" ";
 		byte[] textoEmByte = texto.getBytes();
 		Files.write(caminho, textoEmByte);
 		
